@@ -1,0 +1,7 @@
+D:\Documents\Visual Studio 2010\Projects\2012-2\MvcAppPopup\MvcAppPopup\bin\MvcAppPopup.dll
+D:\Documents\Visual Studio 2010\Projects\2012-2\MvcAppPopup\MvcAppPopup\bin\MvcAppPopup.pdb
+D:\Documents\Visual Studio 2010\Projects\2012-2\MvcAppPopup\MvcAppPopup\bin\EntityFramework.dll
+D:\Documents\Visual Studio 2010\Projects\2012-2\MvcAppPopup\MvcAppPopup\bin\EntityFramework.xml
+D:\Documents\Visual Studio 2010\Projects\2012-2\MvcAppPopup\MvcAppPopup\obj\Debug\MvcAppPopup.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2010\Projects\2012-2\MvcAppPopup\MvcAppPopup\obj\Debug\MvcAppPopup.dll
+D:\Documents\Visual Studio 2010\Projects\2012-2\MvcAppPopup\MvcAppPopup\obj\Debug\MvcAppPopup.pdb

@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Página principal";
+}
+
+<script type="text/javascript">
+
+    $(function () {
+        $("#btnNuevo").click(function () {
+            alert('habla');
+            $("#popup").dialog("open");
+        });
+
+        $("#popup").dialog();
+
+    });
+    </script>
+
+    <script type="text/javascript">
+        // increase the default animation speed to exaggerate the effect
+        $.fx.speeds._default = 1000;
+        $(function () {
+            $("#dialog").dialog({
+                autoOpen: false,
+                show: "blind",
+                hide: "explode"
+            });
+
+            $("#opener").click(function () {
+                $("#dialog").dialog("open");
+                return false;
+            });
+        });
+    </script>
+
+<h2>@ViewBag.Message</h2>
+<p>
+    
+    <div id="dialog" title="Basic dialog">
+    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+ 
+<button id="opener">Open Dialog</button>
+<button id="btnNuevo">Crear Nuevo Empleado</button> 
+
+<div id="popup" title="Basic dialog">
+   @Html.Partial("~/Views/Home/_DemoCarga.cshtml")
+</div>
+
+</p>
